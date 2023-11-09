@@ -37,7 +37,7 @@ namespace backend
             new SubscriptionClient(Configuration.GetValue<string>("SERVICE_BUS_CONN_STR"),
                 Configuration.GetValue<string>("topicName"), Configuration.GetValue<string>("subscriptionName")));
             services.AddControllers().AddDapr();
-            services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
+            // services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
