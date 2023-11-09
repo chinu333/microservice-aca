@@ -6,9 +6,11 @@ In order to run the code in this repo as a microservice, please complete the [Bu
 
 ### Steps to run
 
-1. You will need to add the **Dockerfile** to the web API in the backend folder.
-
-Along with the necessary Docker commands for building an image and running Docker compose as well.
+1. You will need to compete the **Dockerfile** in the backend folder.
+2. Craete Azure Pipeline and Build using the Dockerfile
+3. Push the docker image into Azure Container Registry
+4. Create Azure Container App Environment
+5. Create Azure Container App and deploy the image
 
 Check out the Learn module to find out all about [Building your first microservice in .NET](https://docs.microsoft.com/learn/modules/dotnet-microservices).
 
